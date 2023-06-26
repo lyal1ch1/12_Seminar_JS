@@ -1,0 +1,28 @@
+.video-window {
+  display: flex;
+  flex-direction: column;
+}
+.timer {
+  display: flex;
+  justify-content: center;
+  padding: 16px;
+  border: 1px solid black;
+  font-size: 30px;
+  width: 200px; 
+}
+
+img {
+  width: 50px;
+}
+
+.video {
+  max-width: 800px;
+}
+.control-panel {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.time-current-input {
+  width: 1000px;
+}

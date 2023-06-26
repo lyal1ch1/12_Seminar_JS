@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>12 Seminar</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <div class="video-player">
+      <div class="video-window">
+        <div><video src="video.mp4"></video></div>
+        <div class="timer">
+          <span class="current-time-text">00:00</span>/<span class="full-time"
+            >00:00</span
+          >
+        </div>
+      </div>
+      <div class="control-panel">
+        <img src="play-solid.svg" alt="" class="play-btn" />
+        <input type="range" class="time-current-input" value="0" step="0.001" />
+
+        <!-- <img src="pause-solid.svg" alt="" /> -->
+
+        <input type="range" class="volume" min="0" max="1" step="0.01" />
+      </div>
+    </div>
+  </body>
+</html>
